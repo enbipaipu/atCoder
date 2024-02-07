@@ -1,17 +1,16 @@
-n, q = map(int, input().split())
-a = list(map(int, input().split()))
+from itertools import accumulate
 
-L = [0] * q
-R = [0] * q
+N, Q = map(int, input().split())
 
-for s in range(q):
+A = [0] + list(map(int, input().split()))
+
+L = [None] * (Q)
+R = [None] * (Q)
+
+for s in range(Q):
     L[s], R[s] = map(int, input().split())
 
-ans = [0] * (n + 1)
-ans[0] = 0
+S = list(accumulate(A))
 
-for s in range(n):
-    ans[s + 1] = ans[s] + a[s]
-
-for t in range(q):
-    print(ans[R[t]] - ans[L[t] - 1])
+for s in range(Q):
+    print(S[R[s]] - S[L[s] - 1])
