@@ -1,23 +1,24 @@
-d = int(input())
-n = int(input())
+D = int(input())
 
-L = [0] * n
-R = [0] * n
+N = int(input())
 
-for s in range(n):
-    L[s], R[s] = map(int, input().split())
+L = [None] * N
+R = [None] * N
 
-B = [0] * (d + 2)
+for i in range(N):
+    L[i], R[i] = map(int, input().split())
 
-for s in range(n):
-    B[L[s]] += 1
-    B[R[s] + 1] -= 1
+B = [0] * (D + 2)
 
-ans = [0] * (d + 2)
-ans[0] = 0
+for i in range(N):
+    B[L[i]] += 1
+    B[R[i] + 1] -= 1
 
-for s in range(1, d + 1):
-    ans[s] = ans[s - 1] + B[s]
+S = [None] * (D + 2)
+S[0] = 0
 
-for s in range(1, d + 1):
-    print(ans[s])
+for i in range(D):
+    S[i + 1] = S[i] + B[i + 1]
+
+for i in range(1, D + 1):
+    print(S[i])
