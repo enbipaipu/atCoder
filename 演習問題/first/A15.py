@@ -1,3 +1,5 @@
+import bisect
+
 N = int(input())
 A = list(map(int, input().split()))
 
@@ -7,7 +9,7 @@ def binary(arr, target):
     R = len(arr)
     while L < R:
         mid = (L + R) // 2
-        if target <= arr[mid]:
+        if arr[mid] > target:
             R = mid
         if arr[mid] < target:
             L = mid + 1
@@ -18,7 +20,7 @@ T = list(set(A))
 T.sort()
 B = [None] * N
 for i in range(N):
-    B[i] = binary(T, A[i])
+    B[i] = bisect.bisect_left(T, A[i])
     B[i] += 1
 
 # 答えを空白区切りで出力
