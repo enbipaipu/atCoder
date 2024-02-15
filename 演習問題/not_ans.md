@@ -6,3 +6,5 @@ A09 - Winter in ALGO Kingdom
 A10 - Resort Hotel
 A11 - Binary Search 1
 A12 - Printer
+A13 - Close Pairs
+A14 - Four Boxes
