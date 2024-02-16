@@ -8,3 +8,4 @@ A11 - Binary Search 1
 A12 - Printer
 A13 - Close Pairs
 A14 - Four Boxes
+A15 - Compression
