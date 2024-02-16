@@ -4,6 +4,7 @@ A = list(map(int, input().split()))
 B = list(map(int, input().split()))
 
 # 動的計画法 -> https://qiita.com/drken/items/dc53c683d6de8aeacf5a
+# ナップサック問題 -> https://qiita.com/drken/items/a5e6fe22863b7992efdb
 dp = [None] * (N + 1)
 dp[1] = 0
 dp[2] = A[0]
