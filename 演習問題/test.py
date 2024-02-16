@@ -1,5 +1,3 @@
-W = 5
-H = 4
-z = [0 for _ in range(H + 2)]
-
-print(z)
+n = ["a", "b", "c", "d", "e"]
+N = dict(n)
+print(N)
