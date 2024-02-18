@@ -1,10 +1,6 @@
-lis = [1, 2, 1, 4, 5, 3]
-print(lis)
-print(lis.count(1))
-
-st = set(lis)
-print(st)
-
-lis.pop()
-
-print(st)
+dic = {1: "a", 2: "b"}
+lis = [4, 5, 6, 7]
+value = "abcdef"
+dic1 = {s: t for s, t in enumerate(value)}
+for s in value:
+    print(s)
