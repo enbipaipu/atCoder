@@ -1,3 +1,3 @@
 n = ["a", "b", "c", "d", "e"]
-N = dict(n)
-print(N)
+lis = [0] * 5
+print(lis)
