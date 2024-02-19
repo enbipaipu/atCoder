@@ -18,6 +18,8 @@ for i in range(1, N + 1):
                 dp[i][j] = False
 
         if j >= A[i - 1]:
+            # i-1枚のカードから任意の枚数を選び、合計値ｊになれば、true
+            # A[i - 1]はi-1から1枚カードが足された際の足されたカードの値
             if dp[i - 1][j] is True or dp[i - 1][j - A[i - 1]] is True:
                 dp[i][j] = True
             else:
