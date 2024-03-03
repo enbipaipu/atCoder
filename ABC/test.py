@@ -5,4 +5,6 @@ dic1 = {s: t for s, t in enumerate(value)}
 bol = True if value == "abcdea" else False
 se = set(["a", "a", "b"])
 
-print(not dic[1] is None)
+for s in reversed(range(0, 11)):
+
+    print(s)
