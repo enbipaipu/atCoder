@@ -1,26 +1,9 @@
-import time
-
-start0 = time.time()
-c = 9
-for s in range(10**6):
-    c = 0
-
-goal0 = time.time()
-print(goal0 - start0)
-start1 = time.time()
-a = 9
-for s in range(10**7):
-    a = 0
-
-goal1 = time.time()
-
-print(goal1 - start1)
-
-start2 = time.time()
-
-b = 9
-for s in range(10**8):
-    b = 0
-
-goal2 = time.time()
-print(goal2 - start2)
+dic = {1: "a", 2: "b", 3: None}
+lis = [4, 5, 6, 7, 3]
+value = "abcdef"
+dic1 = {s: t for s, t in enumerate(value)}
+bol = True if value == "abcdea" else False
+se = set(["a", "a", "b"])
+A = [[None] * 3 for _ in range(4)]
+B = [0, 2, 3]
+print(all(B))
