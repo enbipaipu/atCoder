@@ -1,3 +1,5 @@
+"https://qiita.com/Yaruki00/items/fd1fc269ff7fe40d09a6"
+
 n, r = map(int, input().split())
 M = 1000000007
 
