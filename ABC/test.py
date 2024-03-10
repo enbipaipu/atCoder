@@ -5,5 +5,6 @@ dic1 = {s: t for s, t in enumerate(value)}
 bol = True if value == "abcdea" else False
 se = set(["a", "a", "b"])
 A = [[None] * 3 for _ in range(4)]
-
-print(sorted(lis))
+B, *C = input().split()
+print(B, type(B))
+print(C)
