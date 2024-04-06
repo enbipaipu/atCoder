@@ -1,12 +1,13 @@
 N, A, B = map(int, input().split())
 
 D = list(map(int, input().split()))
-ans = []
-for s in D:
-    x = s % (A + B)
-    if x == 0 or x > A:
-        ans.append(False)
-    else:
-        ans.append(True)
+x = [d_i % (A + B) for d_i in D]
 
-print("Yes" if all(ans) else "No")
+x = sorted(x)
+
+max_ = max(x)
+
+if 0 < max_ and max_ < A + 1:
+    print("Yes")
+else:
+    print("No")

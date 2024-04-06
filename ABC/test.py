@@ -6,6 +6,4 @@ bol = True if value == "abcdea" else False
 se = set(["a", "a", "b"])
 A = [[None] * 3 for _ in range(4)]
 
-
-s = "yay"
-print(s[0:3])
+print(dic1)
