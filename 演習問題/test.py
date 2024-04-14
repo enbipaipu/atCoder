@@ -6,4 +6,4 @@ bol = True if value == "abcdea" else False
 se = set(["a", "a", "b"])
 A = [[None] * 3 for _ in range(4)]
 B = [0, 2, 3]
-print((-1) % 10)
+print(1 ^ 1)
