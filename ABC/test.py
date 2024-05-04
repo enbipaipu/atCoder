@@ -7,5 +7,6 @@ se = set(["a", "a", "b"])
 A = [[None] * 3 for _ in range(4)]
 
 
-st = "ABC003"
-print(int(st[3:7]))
+ttt = "abcde"
+ttt = "--" + ttt[2:4]
+print(ttt)
