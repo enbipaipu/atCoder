@@ -6,7 +6,6 @@ bol = True if value == "abcdea" else False
 se = set(["a", "a", "b"])
 A = [[None] * 3 for _ in range(4)]
 
-
-ttt = "abcde"
-ttt = "--" + ttt[2:4]
-print(ttt)
+ll = 10**8
+Z = [int(s) % ll for s in input().split()]
+print(Z)
