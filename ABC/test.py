@@ -7,5 +7,8 @@ se = set(["a", "a", "b"])
 A = [[None] * 3 for _ in range(4)]
 
 ll = 10**8
-Z = [int(s) % ll for s in input().split()]
-print(Z)
+
+
+t_co = [0 for _ in range(3)]
+t_co[0] = 2
+print(t_co)
