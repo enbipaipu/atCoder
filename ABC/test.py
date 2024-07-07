@@ -7,8 +7,3 @@ se = set(["a", "a", "b"])
 A = [[None] * 3 for _ in range(4)]
 
 ll = 10**8
-
-
-lis_ = [2345, 12345]
-lis_ = [str(s) for s in lis_]
-print("".join(lis_))
