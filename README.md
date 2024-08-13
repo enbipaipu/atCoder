@@ -1,1 +1,1 @@
-atcordr 用.
+atcordr 用
