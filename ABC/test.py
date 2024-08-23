@@ -7,3 +7,11 @@ se = set(["a", "a", "b"])
 A = [[None] * 3 for _ in range(4)]
 
 ll = 10**8
+t = set()
+a = 1
+b = 2
+if b > a:
+    t.add((a, b))
+else:
+    t.add((b, a))
+print(t)
