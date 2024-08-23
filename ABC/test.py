@@ -8,10 +8,9 @@ A = [[None] * 3 for _ in range(4)]
 
 ll = 10**8
 t = set()
-a = 1
-b = 2
-if b > a:
-    t.add((a, b))
-else:
-    t.add((b, a))
-print(t)
+
+diff = {"L": (0, -1), "R": (0, +1), "U": (-1, 0), "D": (+1, 0)}
+
+lll = [(0, 0)]
+
+print(lll[0][0] + diff["D"][0])
