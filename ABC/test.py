@@ -9,8 +9,5 @@ A = [[None] * 3 for _ in range(4)]
 ll = 10**8
 t = set()
 
-diff = {"L": (0, -1), "R": (0, +1), "U": (-1, 0), "D": (+1, 0)}
+llll = [1, 2, 3, 4]
 
-lll = [(0, 0)]
-
-print(lll[0][0] + diff["D"][0])
