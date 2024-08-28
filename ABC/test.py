@@ -4,12 +4,12 @@ value = "abcdef"
 dic1 = {s: t for s, t in enumerate(value)}
 bol = True if value == "abcdea" else False
 se = set(["a", "a", "b"])
-A = [[None] * 3 for _ in range(4)]
+A = [0 for _ in range(4)]
 
 ll = 10**8
 t = set()
 
 llll = [1, 2, 3, 4]
-
+print(A)
 
 
