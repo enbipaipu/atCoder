@@ -9,7 +9,9 @@ A = [0 for _ in range(4)]
 ll = 10**8
 t = set()
 
-llll = [1, 2, 3, 4]
-print(A)
 
+
+mid = 1.5
+print(mid)
+print(int(mid))
 
