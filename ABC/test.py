@@ -9,9 +9,7 @@ A = [0 for _ in range(4)]
 ll = 10**8
 t = set()
 
+lists = ["a", "b", "c"]
 
-
-mid = 1.5
-print(mid)
-print(int(mid))
+print(str(lists))
 
